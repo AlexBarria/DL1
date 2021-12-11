@@ -41,16 +41,17 @@ Temario de la asignatura:
 > * Transfer learning.
 > * Generative Adversarial Networks (GAN).
 > 
-> **Clase 8:** Examen: End to End implementation ML problem with PyTorch and Scikit-learn
+> **Clase 8:** 
+> Examen: End to End implementation ML problem with PyTorch and Scikit-learn
 > ------------------------------------------------------------------------------------------
 
 En este repositorio se encuentran algunos de los ejercicios de práctica de la materia:
 1) Se realiza una implementación con numpy del algorítmo SGD para encontrar el mínimo de una función y(x).
-<img src="https://github.com/AlexBarria/DL1/tree/main/SGD_gif.gif" width="255" height="225">
+<img src="https://github.com/AlexBarria/DL1/blob/main/Images/SGD_gif.gif" width="255" height="225">
 A esa implementación se le agregan momentos de primer y segundo órden para comparar la velocidad de convergencia de los tres casos.
-<img src="https://github.com/AlexBarria/DL1/tree/main/SGD_COMPA.png" width="255" height="225">
-2) Dado un determinado gráfo de cómputo de implementa diferenciación automática para enocntrar los valores de las derivadas. En este caso se utiliza PyTorch.
-<img src="https://github.com/AlexBarria/DL1/tree/main/grafo.PNG" width="255" height="450">
+<img src="https://github.com/AlexBarria/DL1/blob/main/Images/SGD_COMPA.png" width="400" height="225">
+2) Dado un determinado gráfo de cómputo se implementa diferenciación automática para encontrar los valores de las derivadas. En este caso se utiliza PyTorch.
+<img src="https://github.com/AlexBarria/DL1/blob/main/Images/grafo.PNG" width="255" height="375">
 3) Para abordar un problema de regresión, se crea un data-set sintético. Primero se soluciona el problema implementado un algorítmo mini-batch SGD similar al punto 1. Se agrega regularización.
 Por último se implementa una RNA MLP con PyTorch, agregando batch normalization y dropout.
 
